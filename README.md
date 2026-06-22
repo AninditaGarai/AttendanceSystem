@@ -4,11 +4,24 @@ A beginner-friendly face attendance project using Python, OpenCV, face recogniti
 
 ## Installation
 
+### Prerequisites
+
+- Python 3.8 or higher
+- A working webcam
+- Windows, macOS, or Linux
+
+### Install Dependencies
+
 Install the required dependencies:
 
 ```powershell
 pip install -r requirements.txt
 ```
+
+### Note on face_recognition
+
+The `face_recognition` package requires CMake and dlib to be installed on your system. If you encounter installation issues, please refer to the [face_recognition documentation](https://github.com/ageitgey/face_recognition).
+
 
 ## Project Structure
 
