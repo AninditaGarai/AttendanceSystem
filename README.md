@@ -1,6 +1,6 @@
 # Face Attendance System
 
-A beginner-friendly face attendance project using Python, OpenCV, face recognition, and SQLite. This system provides both CLI and GUI interfaces for registering students, tracking attendance using facial recognition, and managing attendance records.
+A beginner-friendly face attendance project using Python, OpenCV, face recognition, and SQLite. This system provides both CLI and GUI interfaces for registering students, tracking attendance using facial recognition, and managing attendance records. Designed for educational institutions and organizations seeking an automated attendance solution.
 
 ## Features
 
