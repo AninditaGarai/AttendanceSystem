@@ -93,3 +93,12 @@ Contributions are welcome! Please follow these guidelines:
 - Test thoroughly
 - Submit a pull request
 
+## Developer Notes
+
+- The database is automatically created in the `data/` directory on first run
+- Face images are stored in `registered_faces/` directory
+- The system uses SQLite for data persistence
+- Face recognition requires the `face_recognition` package
+- Camera resolution is set to 640x480 for optimal performance
+- Attendance is marked once per student per day
+
