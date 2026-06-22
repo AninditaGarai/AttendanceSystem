@@ -68,14 +68,27 @@ The `face_recognition` package requires CMake and dlib to be installed on your s
 
 ```
 AttendanceSystem/
-├── database.py              # SQLite database operations
-├── gui.py                   # Tkinter GUI interface
-├── main.py                  # CLI interface and face recognition logic
-├── requirements.txt         # Python dependencies
-├── data/                    # Database directory
-│   └── attendance_system.db
-└── registered_faces/        # Stored face images
+├── database.py              # SQLite database operations and data access layer
+├── gui.py                   # Tkinter GUI interface for visual interaction
+├── main.py                  # CLI interface and core face recognition logic
+├── requirements.txt         # Python package dependencies
+├── data/                    # Database directory (auto-created on first run)
+│   └── attendance_system.db # SQLite database file
+├── registered_faces/        # Directory for storing registered face images
+│   ├── Anindita.jpg         # Example registered face image
+│   └── Shravya.jpg          # Example registered face image
+└── .gitignore               # Git ignore patterns for Python projects
 ```
+
+### File Descriptions
+
+- **database.py**: Contains all database-related functions including table creation, student CRUD operations, and attendance tracking
+- **gui.py**: Implements the Tkinter-based graphical user interface with real-time camera feed and attendance dashboard
+- **main.py**: Provides command-line interface, face detection, recognition algorithms, and student registration workflow
+- **requirements.txt**: Lists all Python dependencies required to run the application
+- **data/**: Automatically created directory containing the SQLite database file
+- **registered_faces/**: Stores JPG images of registered students for face recognition
+- **.gitignore**: Specifies files and directories to exclude from Git version control
 
 ## Current Module
 
