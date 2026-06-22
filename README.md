@@ -1,6 +1,6 @@
 # Face Attendance System
 
-Beginner-friendly face attendance project using Python, OpenCV, face recognition, and SQLite.
+A beginner-friendly face attendance project using Python, OpenCV, face recognition, and SQLite.
 
 ## Current Module
 
