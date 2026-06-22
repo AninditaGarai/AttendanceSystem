@@ -37,6 +37,7 @@ def open_camera():
 
 
 def is_exit_key(key):
+    """Check if the key is an exit key (q, Q, or Esc)."""
     return key in (ord("q"), ord("Q"), 27)
 
 
