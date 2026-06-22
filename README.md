@@ -188,12 +188,36 @@ Contributions are welcome! Please follow these guidelines:
 
 ## Developer Notes
 
+### System Configuration
 - The database is automatically created in the `data/` directory on first run
 - Face images are stored in `registered_faces/` directory
 - The system uses SQLite for data persistence
 - Face recognition requires the `face_recognition` package
 - Camera resolution is set to 640x480 for optimal performance
 - Attendance is marked once per student per day
+
+### Maintenance
+
+#### Database Backup
+To backup the database, copy the `data/attendance_system.db` file to a secure location.
+
+#### Face Image Management
+- Registered face images are stored as JPG files
+- Images are named using the student's name (spaces replaced with underscores)
+- To remove a student, delete their image file and use the delete function in the GUI
+
+#### Performance Optimization
+- The system processes frames at approximately 15 FPS in GUI mode
+- Face recognition is performed every 5 frames to reduce CPU usage
+- Camera resolution can be adjusted in the `open_camera()` function
+- Face recognition tolerance can be modified in the attendance logic
+
+#### Known Limitations
+- Face recognition accuracy depends on lighting conditions
+- Multiple faces in frame may cause recognition errors
+- System requires a working webcam for operation
+- Face recognition requires significant CPU resources
+- Database is not encrypted - consider encryption for production use
 
 ## Troubleshooting
 
