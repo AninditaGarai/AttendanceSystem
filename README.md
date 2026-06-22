@@ -47,9 +47,22 @@ The system follows a modular architecture with three main components:
 
 ### Prerequisites
 
+#### System Requirements
 - Python 3.8 or higher
-- A working webcam
-- Windows, macOS, or Linux
+- A working webcam (built-in or external)
+- Windows, macOS, or Linux operating system
+- Minimum 4GB RAM
+- 500MB free disk space
+
+#### Software Dependencies
+- CMake (required for face_recognition installation)
+- dlib (required for face_recognition)
+- Visual Studio Build Tools (Windows only, for C++ compilation)
+
+#### Hardware Requirements
+- Webcam with 640x480 resolution or higher
+- Adequate lighting for face detection
+- Stable internet connection (for initial package installation)
 
 ### Install Dependencies
 
