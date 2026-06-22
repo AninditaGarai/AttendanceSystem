@@ -1,7 +1,8 @@
-import cv2
 import json
-import numpy as np
 from pathlib import Path
+
+import cv2
+import numpy as np
 
 from database import (
     add_student,
