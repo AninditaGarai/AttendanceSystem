@@ -27,6 +27,23 @@ AttendanceSystem/
 
 Module A: Open laptop webcam and show live video feed.
 
+## API Documentation
+
+### Database Functions
+
+- `create_tables()` - Initialize database tables
+- `add_student(name, image_path, face_encoding, student_code)` - Register a new student
+- `get_all_students()` - Retrieve all registered students
+- `mark_attendance(student_id, name)` - Mark attendance for a student
+- `get_today_attendance()` - Get today's attendance records
+
+### Main Functions
+
+- `detect_faces_webcam()` - Open webcam and detect faces
+- `register_new_person()` - Register a new person with face encoding
+- `start_attendance()` - Start attendance recognition mode
+- `show_menu()` - Display CLI menu interface
+
 ## Run
 
 ```powershell
