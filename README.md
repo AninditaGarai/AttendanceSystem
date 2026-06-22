@@ -49,3 +49,14 @@ Module A: Open laptop webcam and show live video feed.
 ```powershell
 python main.py
 ```
+
+## Contributing
+
+Contributions are welcome! Please follow these guidelines:
+
+- Fork the repository
+- Create a feature branch
+- Make your changes
+- Test thoroughly
+- Submit a pull request
+
