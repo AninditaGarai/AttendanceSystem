@@ -15,6 +15,7 @@ def get_connection():
 
 
 def create_tables():
+    """Initialize database tables if they don't exist."""
     connection = get_connection()
     cursor = connection.cursor()
 
