@@ -86,6 +86,7 @@ def add_student(name, image_path, face_encoding=None, student_code=None):
 
 
 def update_student_encoding(student_id, face_encoding):
+    """Update the face encoding for an existing student."""
     connection = get_connection()
     cursor = connection.cursor()
 
