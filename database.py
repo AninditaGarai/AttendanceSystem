@@ -187,3 +187,4 @@ def get_today_attendance():
 
 def show_database_location():
     print(f"Database ready at: {DATABASE_PATH}")
+
