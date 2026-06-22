@@ -113,10 +113,6 @@ AttendanceSystem/
 - **registered_faces/**: Stores JPG images of registered students for face recognition
 - **.gitignore**: Specifies files and directories to exclude from Git version control
 
-## Current Module
-
-Module A: Open laptop webcam and show live video feed.
-
 ## API Documentation
 
 ### Database Functions
