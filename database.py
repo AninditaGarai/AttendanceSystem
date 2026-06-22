@@ -1,3 +1,10 @@
+"""
+Face Attendance System - Database Module
+
+This module handles all SQLite database operations for the face attendance system,
+including student registration, attendance tracking, and data persistence.
+"""
+
 import sqlite3
 from pathlib import Path
 from datetime import datetime
