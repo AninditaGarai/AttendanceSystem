@@ -50,6 +50,26 @@ Module A: Open laptop webcam and show live video feed.
 python main.py
 ```
 
+## Usage Examples
+
+### CLI Mode
+
+1. Run `python main.py` to start the CLI interface
+2. Select option 1 to register a new person
+3. Select option 2 to start attendance mode
+4. Select option 3 to view registered people
+5. Select option 4 to test face detection
+6. Select option 5 to exit
+
+### GUI Mode
+
+Run `python gui.py` to launch the graphical interface with features for:
+- Student registration
+- Live attendance tracking
+- Attendance export to CSV
+- Student management
+
+
 ## Contributing
 
 Contributions are welcome! Please follow these guidelines:
