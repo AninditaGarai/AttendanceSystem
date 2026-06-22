@@ -76,6 +76,16 @@ pip install -r requirements.txt
 
 The `face_recognition` package requires CMake and dlib to be installed on your system. If you encounter installation issues, please refer to the [face_recognition documentation](https://github.com/ageitgey/face_recognition).
 
+### Environment Variables
+
+This project does not require any environment variables to be set. All configuration is handled through the code and database files. The application uses default settings for:
+- Database location: `data/attendance_system.db` (relative to project root)
+- Face images location: `registered_faces/` (relative to project root)
+- Camera resolution: 640x480 pixels
+- Face recognition tolerance: 0.5
+
+If you need to customize these settings, you can modify the constants in the respective Python files.
+
 
 ## Project Structure
 
