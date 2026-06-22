@@ -12,6 +12,37 @@ A beginner-friendly face attendance project using Python, OpenCV, face recogniti
 - Export attendance data to CSV
 - SQLite database for data persistence
 
+## Project Architecture
+
+The system follows a modular architecture with three main components:
+
+### Database Layer (`database.py`)
+- Handles all SQLite database operations
+- Manages student and attendance tables
+- Provides CRUD operations for student data
+- Ensures data persistence and integrity
+
+### Core Logic (`main.py`)
+- Implements face detection and recognition algorithms
+- Manages webcam interactions
+- Handles student registration workflow
+- Provides CLI-based user interface
+- Coordinates between database and face recognition
+
+### User Interface (`gui.py`)
+- Tkinter-based graphical interface
+- Real-time camera feed display
+- Student registration and management
+- Attendance tracking dashboard
+- CSV export functionality
+
+### Data Flow
+1. Camera captures video frames
+2. Face detection identifies faces in frames
+3. Face recognition matches faces to registered students
+4. Attendance is recorded in database
+5. Results are displayed in CLI or GUI
+
 ## Installation
 
 ### Prerequisites
