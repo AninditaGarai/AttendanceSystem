@@ -9,6 +9,7 @@ import cv2
 import numpy as np
 from PIL import Image, ImageTk
 
+
 from database import (
     add_student,
     create_tables,
