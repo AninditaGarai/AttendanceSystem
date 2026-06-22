@@ -9,6 +9,7 @@ DATABASE_PATH = DATA_DIR / "attendance_system.db"
 
 
 def get_connection():
+    """Create and return a database connection."""
     DATA_DIR.mkdir(exist_ok=True)
     return sqlite3.connect(DATABASE_PATH)
 
