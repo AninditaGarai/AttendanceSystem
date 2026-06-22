@@ -175,3 +175,32 @@ Contributions are welcome! Please follow these guidelines:
 - Camera resolution is set to 640x480 for optimal performance
 - Attendance is marked once per student per day
 
+## Troubleshooting
+
+### Common Issues
+
+**Issue: Camera not opening**
+- Ensure your webcam is properly connected and not in use by another application
+- Check camera permissions in your system settings
+- Try running with administrator privileges
+
+**Issue: face_recognition installation fails**
+- Install CMake and Visual Studio Build Tools (Windows)
+- Ensure you have a C++ compiler installed
+- Refer to the [face_recognition documentation](https://github.com/ageitgey/face_recognition) for detailed installation instructions
+
+**Issue: Face not detected**
+- Ensure adequate lighting in the room
+- Position yourself at an appropriate distance from the camera (2-3 feet)
+- Make sure your face is clearly visible and not obscured
+
+**Issue: Database errors**
+- Ensure the `data/` directory exists and has write permissions
+- Delete the database file and restart the application to recreate it
+- Check that SQLite is properly installed
+
+**Issue: GUI not responding**
+- Close and restart the application
+- Ensure you have enough system resources (RAM, CPU)
+- Try using the CLI mode instead
+
