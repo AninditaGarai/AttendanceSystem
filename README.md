@@ -160,11 +160,31 @@ Run `python gui.py` to launch the graphical interface with features for:
 
 Contributions are welcome! Please follow these guidelines:
 
-- Fork the repository
-- Create a feature branch
-- Make your changes
-- Test thoroughly
-- Submit a pull request
+### How to Contribute
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. Test thoroughly with both CLI and GUI modes
+5. Commit your changes (`git commit -m 'Add some amazing feature'`)
+6. Push to the branch (`git push origin feature/amazing-feature`)
+7. Submit a pull request
+
+### Code Style
+
+- Follow PEP 8 guidelines for Python code
+- Add docstrings to new functions
+- Write clear, descriptive commit messages
+- Keep functions small and focused
+- Add comments for complex logic
+
+### Testing
+
+- Test face detection with different lighting conditions
+- Verify student registration works correctly
+- Check attendance tracking accuracy
+- Test both CLI and GUI interfaces
+- Ensure database operations work properly
 
 ## Developer Notes
 
