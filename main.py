@@ -31,6 +31,7 @@ def get_face_recognition_library():
 
 
 def open_camera():
+    """Open and configure the webcam with default settings."""
     camera = cv2.VideoCapture(0, cv2.CAP_DSHOW)
     camera.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
     camera.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
