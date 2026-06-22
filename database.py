@@ -57,10 +57,12 @@ def create_tables():
 
 
 def add_student(name, image_path, face_encoding=None, student_code=None):
+    """Add a new student to the database with optional face encoding and student code."""
     connection = get_connection()
     cursor = connection.cursor()
 
     try:
+        # Insert student record with current timestamp
         cursor.execute(
             """
             INSERT INTO students (name, face_encoding, image_path, created_at, student_code)
@@ -77,6 +79,7 @@ def add_student(name, image_path, face_encoding=None, student_code=None):
         connection.commit()
         return True
     except sqlite3.IntegrityError:
+        # Return False if student name already exists
         return False
     finally:
         connection.close()
