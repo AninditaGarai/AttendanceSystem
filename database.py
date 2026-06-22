@@ -10,6 +10,7 @@ from pathlib import Path
 from datetime import datetime
 
 
+# Directory and file path constants
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 DATABASE_PATH = DATA_DIR / "attendance_system.db"
